@@ -1,0 +1,17 @@
+{
+  "name": "each-component",
+  "version": "0.0.1",
+  "description": "Array / object / string iteration utility",
+  "dependencies": {
+    "type-component": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "component": {
+    "scripts": {
+      "each/index.js": "index.js"
+    }
+  }
+}
