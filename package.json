@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Array / object / string iteration utility",
   "dependencies": {
-    "type-component": "*"
+    "type-component": "*",
+    "require-component": "~0.1.0"
   },
   "devDependencies": {
     "mocha": "*",
