@@ -5,6 +5,9 @@
   "dependencies": {
     "type": "component/type"
   },
+  "browser": {
+    "type": "node_modules/component-type/index.js"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
