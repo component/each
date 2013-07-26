@@ -50,3 +50,11 @@ describe('each(str, fn)', function(){
     vals.should.eql(['h', 0, 'e', 1, 'y', 2]);
   })
 })
+
+describe('each(users, fn)', function(){
+  it('should use toFunction', function(){
+    var users = [{ name: 'john' }];
+    each(users, '.name = "baz"');
+    users[0].name.should.equal('baz');
+  })
+})

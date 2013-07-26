@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "keywords": ["object", "string", "array", "each", "utility"],
   "dependencies": {
+    "component/to-function": "*",
     "component/type": "*"
   },
   "development": {},
