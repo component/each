@@ -3,7 +3,14 @@
  * Module dependencies.
  */
 
-var type = require('type');
+var toFunction = require('to-function');
+var type;
+
+try {
+  type = require('type-component');
+} catch (e) {
+  type = require('type');
+}
 
 /**
  * HOP reference.
@@ -20,6 +27,7 @@ var has = Object.prototype.hasOwnProperty;
  */
 
 module.exports = function(obj, fn){
+  fn = toFunction(fn);
   switch (type(obj)) {
     case 'array':
       return array(obj, fn);

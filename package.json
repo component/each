@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "description": "Array / object / string iteration utility",
   "dependencies": {
-    "type": "component/type"
+    "type-component": "*",
+    "to-function": "*"
   },
   "browser": {
-    "type": "node_modules/component-type/index.js"
+    "type": "node_modules/component-type/index.js",
+    "to-function": "node_modules/to-function/index.js"
   },
   "devDependencies": {
     "mocha": "*",
