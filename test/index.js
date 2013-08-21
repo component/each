@@ -17,6 +17,16 @@ describe('each(arr, fn)', function(){
     });
     vals.should.eql([0,1,2]);
   })
+
+  describe('when passed a context', function(){
+    it('should iterate in context', function(){
+      var vals = [];
+      each([1,2,3], function(val, i){
+        this.push(val);
+      }, vals);
+      vals.should.eql([1,2,3]);
+    })
+  })
 })
 
 describe('each(obj, fn)', function(){
@@ -39,6 +49,17 @@ describe('each(obj, fn)', function(){
       vals.should.eql(['foo', 0, 'bar', 1]);
     })
   })
+
+  describe('when passed a context', function(){
+    it('should iterate in context', function(){
+      var user = { name: 'Tobi', age: 2 };
+      var vals = [];
+      each(user, function(key, val){
+        this.push([key, val]);
+      }, vals);
+      vals.should.eql([['name', 'Tobi'], ['age', 2]]);
+    })
+  })
 })
 
 describe('each(str, fn)', function(){
@@ -48,6 +69,16 @@ describe('each(str, fn)', function(){
       vals.push(c, i);
     });
     vals.should.eql(['h', 0, 'e', 1, 'y', 2]);
+  })
+
+  describe('when passed a context', function(){
+    it('should iterate in context', function(){
+      var vals = [];
+      each('hey', function(c, i){
+        this.push(c, i);
+      }, vals);
+      vals.should.eql(['h', 0, 'e', 1, 'y', 2]);
+    })
   })
 })
 
