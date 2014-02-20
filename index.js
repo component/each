@@ -3,14 +3,8 @@
  * Module dependencies.
  */
 
+var type = require('type');
 var toFunction = require('to-function');
-var type;
-
-try {
-  type = require('type-component');
-} catch (e) {
-  type = require('type');
-}
 
 /**
  * HOP reference.
