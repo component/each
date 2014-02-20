@@ -9,7 +9,7 @@
 
 ## API
 
-### each(array, fn)
+### each(array, fn[, ctx])
 
   Iterate an array:
 
@@ -19,7 +19,15 @@ each([1,2,3], function(num, i){
 })
 ```
 
-### each(object, fn)
+  Optionally pass a context object:
+
+```js
+each([1,2,3], function(num, i){
+
+}, this)
+```
+
+### each(object, fn[, ctx])
 
   Iterate an object's key / value pairs:
 
@@ -37,7 +45,7 @@ each(collection, function(val, i){
 })
 ```
 
-### each(string, fn)
+### each(string, fn[, ctx])
 
   Iterate a string's characters:
 
