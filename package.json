@@ -1,5 +1,5 @@
 {
-  "name": "each-component",
+  "name": "component-each",
   "version": "0.1.0",
   "description": "Array / object / string iteration utility",
   "dependencies": {
