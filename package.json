@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Array / object / string iteration utility",
   "dependencies": {
-    "type-component": "*",
+    "component-type": "*",
     "to-function": "*"
   },
   "browser": {
