@@ -7,8 +7,7 @@
     "to-function": "*"
   },
   "browser": {
-    "type": "node_modules/component-type/index.js",
-    "to-function": "node_modules/to-function/index.js"
+    "type": "type-component"
   },
   "devDependencies": {
     "mocha": "*",
