@@ -2,7 +2,7 @@
   "name": "each",
   "repo": "component/each",
   "description": "Array / object / string iteration utility",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "keywords": [
     "object",
     "string",
