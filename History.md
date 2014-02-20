@@ -1,4 +1,12 @@
 
+0.2.0 / 2014-02-19
+==================
+
+  * package: rename to "component-each"
+  * index: remove try/catch require('type') logic
+  * package: simplify "browser" field
+  * add context argument to invoke iterator in
+
 0.1.0 / 2013-09-15
 ==================
 
