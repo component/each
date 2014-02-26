@@ -1,6 +1,6 @@
 {
   "name": "component-each",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Array / object / string iteration utility",
   "dependencies": {
     "component-type": "~1.0.0",
