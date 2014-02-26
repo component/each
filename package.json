@@ -7,7 +7,7 @@
     "to-function": "~1.2.1"
   },
   "browser": {
-    "type": "type-component"
+    "type": "component-type"
   },
   "devDependencies": {
     "mocha": "*",
