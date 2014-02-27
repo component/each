@@ -3,7 +3,7 @@
 ==================
 
   * package: fix "browser" field
-  * package: pinning deps
+  * package: pinning dependencies
 
 0.2.1 / 2014-02-19
 ==================
