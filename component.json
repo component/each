@@ -11,8 +11,8 @@
     "utility"
   ],
   "dependencies": {
-    "component/to-function": "2.0.0",
-    "component/type": "1.0.0"
+    "component/type": "1.0.0",
+    "component/to-function": "2.0.5"
   },
   "development": {},
   "scripts": [

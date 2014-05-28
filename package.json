@@ -3,8 +3,8 @@
   "version": "0.2.2",
   "description": "Array / object / string iteration utility",
   "dependencies": {
-    "component-type": "~1.0.0",
-    "to-function": "~1.2.1"
+    "component-type": "1.0.0",
+    "to-function": "2.0.5"
   },
   "browser": {
     "type": "component-type"
