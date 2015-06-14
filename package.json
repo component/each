@@ -1,10 +1,10 @@
 {
   "name": "component-each",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Array / object / string iteration utility",
   "dependencies": {
     "component-type": "1.0.0",
-    "to-function": "2.0.5"
+    "to-function": "2.0.6"
   },
   "browser": {
     "type": "component-type"
