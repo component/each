@@ -4,7 +4,7 @@
  */
 
 try {
-  var type = require('type');
+  var type = require('component-type');
 } catch (err) {
   var type = require('component-type');
 }
